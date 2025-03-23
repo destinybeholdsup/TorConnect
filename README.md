@@ -2,6 +2,13 @@
 
 **TorConnect** is a Python library that makes it easy to connect to the Tor network for anonymous browsing and web scraping. It offers simple methods to manage Tor sessions, rotate IPs, and send requests through Tor's SOCKS proxy, helping you keep your online activity private and secure. 
 
+## How does this work?
+I am simply utilizing Tor's expert bundle to use their data and servers so you can route your session easily through their nodes.
+
+1. This will check if tor.exe is running, if so, kill, if not, start
+2. Waits till the bootstrap is done
+3. Once done, the program will start executing whatever you need without having to worry about putting condition checks
+
 ## Getting Started
 You're going to want to make sure Tor Expert Bundle is installed *(https://www.torproject.org/download/tor/)*
 
