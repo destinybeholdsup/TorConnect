@@ -4,11 +4,14 @@
 
 ## Getting Started
 You're going to want to make sure Tor Expert Bundle is installed *(https://www.torproject.org/download/tor/)*
-Extarce the folder to a place on computer
+
+Extract the folder to a place on computer
+
 Install the dependencies `pip install stem rich requests`
 
 ## How to use
 There's an example in the github on how to make a basic request with it. Here's an *[Example](https://github.com/destinybeholdsup/TorConnect/blob/main/Example1_Basic_Get_Request.py)* of it doing a get request.
+
 From there on, it's the exact same as you would do for any ordinary request.
 
 ## What do I use this for?
