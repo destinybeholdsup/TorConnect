@@ -35,7 +35,7 @@ def kill_tor():
     except Exception as e:
         console.print(f"[bold red]Failed to terminate Tor process: {e}[/bold red]")
 
-def start_tor(tor_path='tor'):
+def start_tor(tor_path='tor', show_debug=False):
     '''Checks if tor is running, starts tor using user's socks & control ports and cookie auth variable'''
     try:
         
@@ -57,7 +57,8 @@ def start_tor(tor_path='tor'):
             if output == '' and process.poll() is not None:
                 raise Exception("Tor process exited unexpectedly.")
 
-            console.print("Sevrer Status: " + output.strip())
+            if show_debug:
+                console.print("Sevrer Status: " + output.strip())
 
             if re.search(r"Bootstrapped 100% \(done\): Done", output):
                 break
