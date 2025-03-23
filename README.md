@@ -18,6 +18,6 @@ From there on, it's the exact same as you would do for any ordinary request.
 Anything you want to do that requires proxies and you just don't want to buy proxies, too lazy, or just need a simple and quick way to hide your requests from the server or IPS.
 
 ## Future features
-Make it easy for user to individualize session per thread if wanting without multiple servers running at once
+Make it easy for user to individualize Tor session per thread if wanting without multiple servers running at once
 ___
 **I am not responsible if you use it for malicious purposes. This is simply for educational purposes for myself and others.**
