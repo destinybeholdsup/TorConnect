@@ -15,7 +15,7 @@ There's an example in the github on how to make a basic request with it. Here's 
 From there on, it's the exact same as you would do for any ordinary request.
 
 ## What do I use this for?
-Anything you want to do that requires proxies and you just don't want to buy proxies or is too lazy.
+Anything you want to do that requires proxies and you just don't want to buy proxies, too lazy, or just need a simple and quick way to hide your requests from the server or IPS.
 
 ___
 **I am not responsible if you use it for malicious purposes. This is simply for educational purposes for myself and others.**
