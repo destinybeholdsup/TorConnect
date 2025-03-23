@@ -7,9 +7,9 @@ def main():
     if start_tor(tor_location):
         session = get_tor_session()
         try:
-            print("Making request through Tor network...")
+            print("Requesting...")
             response = session.get("https://api.ipify.org")
-            print(f"Success! Response: {response.text}")
+            print(f"Response: {response.text}")
         except requests.RequestException as e:
             print(f"Request failed: {e}")
         finally:
